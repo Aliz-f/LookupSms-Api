@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class LookupConfig(AppConfig):
+class SmsLookupConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'lookup'
+    name = 'sms_lookup'
